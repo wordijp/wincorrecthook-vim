@@ -2,11 +2,11 @@
 
 vim plugin for Windows API hook, because fix the difference with the Linux version
 
-# Support Version
+## Support Version
 
 current is MS-Windows 64 bit version only
 
-# Install
+## Install
 
 ```vim:.vimrc
 NeoBundle 'wordijp/wincorrecthook-vim'
@@ -18,7 +18,7 @@ if rebuild from source code
 
 1. run build_x64.bat(need for Microsoft Visual Studio, default is 2015(VC++14) x64 version)
 
-# Usage
+## Usage
 
 ```vim:
 :echo exepath('where')
@@ -27,6 +27,6 @@ C:/Windows/system32/where.EXE
 # C:\Windows\system32\where.EXE
 ```
 
-# Licence
+## Licence
 
 MIT
